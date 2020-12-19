@@ -9,16 +9,54 @@ function setup() {
   speed = random(55, 90);
   weight = random(400, 1500);
   
-  car1 = createSprite(50, 200, 10, 10);
+  car1 = createSprite(50, 150, 10, 10);
   car1.shapeColor = "white";
   car1.debug = true;
   debug.visible = false;
 
-  wall1 = createSprite(400, 200, 40, height / 2);
+  wall1 = createSprite(700, 250, 40, height / 2);
   wall1.shapeColor = "grey";
   wall1.debug = true;
   debug.visible = false;
-  
+
+  car2 = createSprite(50, 150, 10, 10);
+  car2.shapeColor = "white";
+  car2.debug = true;
+  debug.visible = false;
+
+  wall2 = createSprite(700, 250, 40, height / 2);
+  wall2.shapeColor = "grey";
+  wall2.debug = true;
+  debug.visible = false;
+
+  car3 = createSprite(50, 250, 10, 10);
+  car3.shapeColor = "white";
+  car3.debug = true;
+  debug.visible = false;
+
+  wall3 = createSprite(700, 300, 40, height / 2);
+  wall3.shapeColor = "grey";
+  wall3.debug = true;
+  debug.visible = false;
+
+  car4 = createSprite(50, 350, 10, 10);
+  car4.shapeColor = "white";
+  car4.debug = true;
+  debug.visible = false;
+
+  wall4 = createSprite(700, 200, 40, height / 2);
+  wall4.shapeColor = "grey";
+  wall4.debug = true;
+  debug.visible = false;  
+
+  lane1 = createSprite(10, 200, 800, 10);
+  lane1.shapeColor = "grey";
+
+  lane2 = createSprite(10, 300, 800, 10);
+  lane2.shapeColor = "grey";  
+
+  lane1 = createSprite(10, 400, 800, 10);
+  lane1.shapeColor = "grey";
   
 }
 
